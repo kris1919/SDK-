@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		450F63A321537508001BD086 /* buildBXCNetworking */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 450F63A421537508001BD086 /* Build configuration list for PBXAggregateTarget "buildBXCNetworking" */;
+			buildPhases = (
+				450F63A721537517001BD086 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = buildBXCNetworking;
+			productName = buildBXCNetworking;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		450F63BC2153797B001BD086 /* BXCNetWorkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 450F63BB2153797B001BD086 /* BXCNetWorkingManager.m */; };
+		450F63BF21537A1F001BD086 /* BXCNetWorkingManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 450F63BA2153797B001BD086 /* BXCNetWorkingManager.h */; };
+		450F63DA21538C6F001BD086 /* BXCLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 450F63D921538C6F001BD086 /* BXCLog.m */; };
+		450F63DB21538C9C001BD086 /* BXCLog.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 450F63D821538C6F001BD086 /* BXCLog.h */; };
+		450F63F121538ED0001BD086 /* BXURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 450F63E721538ED0001BD086 /* BXURLResponseSerialization.m */; };
+		450F63F221538ED0001BD086 /* BXHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 450F63E821538ED0001BD086 /* BXHTTPSessionManager.m */; };
+		450F63F321538ED0001BD086 /* BXURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 450F63EA21538ED0001BD086 /* BXURLSessionManager.m */; };
+		450F63F421538ED0001BD086 /* BXURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 450F63EB21538ED0001BD086 /* BXURLRequestSerialization.m */; };
+		450F63F521538ED0001BD086 /* BXNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 450F63ED21538ED0001BD086 /* BXNetworkReachabilityManager.m */; };
+		450F63F621538ED0001BD086 /* BXSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 450F63EE21538ED0001BD086 /* BXSecurityPolicy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		450F637F21536E83001BD086 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				450F63DB21538C9C001BD086 /* BXCLog.h in CopyFiles */,
+				450F63BF21537A1F001BD086 /* BXCNetWorkingManager.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		450F638121536E83001BD086 /* libBXNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBXNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		450F63A9215375F9001BD086 /* packageScript.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = packageScript.sh; sourceTree = "<group>"; };
+		450F63BA2153797B001BD086 /* BXCNetWorkingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BXCNetWorkingManager.h; sourceTree = "<group>"; };
+		450F63BB2153797B001BD086 /* BXCNetWorkingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BXCNetWorkingManager.m; sourceTree = "<group>"; };
+		450F63D821538C6F001BD086 /* BXCLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BXCLog.h; sourceTree = "<group>"; };
+		450F63D921538C6F001BD086 /* BXCLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BXCLog.m; sourceTree = "<group>"; };
+		450F63E321538ED0001BD086 /* BXSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXSecurityPolicy.h; sourceTree = "<group>"; };
+		450F63E421538ED0001BD086 /* BXNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		450F63E521538ED0001BD086 /* BXURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXURLSessionManager.h; sourceTree = "<group>"; };
+		450F63E621538ED0001BD086 /* BXURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXURLRequestSerialization.h; sourceTree = "<group>"; };
+		450F63E721538ED0001BD086 /* BXURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXURLResponseSerialization.m; sourceTree = "<group>"; };
+		450F63E821538ED0001BD086 /* BXHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXHTTPSessionManager.m; sourceTree = "<group>"; };
+		450F63E921538ED0001BD086 /* BXURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXURLResponseSerialization.h; sourceTree = "<group>"; };
+		450F63EA21538ED0001BD086 /* BXURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXURLSessionManager.m; sourceTree = "<group>"; };
+		450F63EB21538ED0001BD086 /* BXURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXURLRequestSerialization.m; sourceTree = "<group>"; };
+		450F63EC21538ED0001BD086 /* BXNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXNetworking.h; sourceTree = "<group>"; };
+		450F63ED21538ED0001BD086 /* BXNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		450F63EE21538ED0001BD086 /* BXSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BXSecurityPolicy.m; sourceTree = "<group>"; };
+		450F63EF21538ED0001BD086 /* BXCompatibilityMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXCompatibilityMacros.h; sourceTree = "<group>"; };
+		450F63F021538ED0001BD086 /* BXHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXHTTPSessionManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		450F637E21536E83001BD086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		450F637821536E83001BD086 = {
+			isa = PBXGroup;
+			children = (
+				450F63A9215375F9001BD086 /* packageScript.sh */,
+				450F638321536E83001BD086 /* BXNetworking */,
+				450F638221536E83001BD086 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		450F638221536E83001BD086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				450F638121536E83001BD086 /* libBXNetworking.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		450F638321536E83001BD086 /* BXNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				450F63E221538ED0001BD086 /* AFNetworking */,
+				450F63BA2153797B001BD086 /* BXCNetWorkingManager.h */,
+				450F63BB2153797B001BD086 /* BXCNetWorkingManager.m */,
+				450F63D821538C6F001BD086 /* BXCLog.h */,
+				450F63D921538C6F001BD086 /* BXCLog.m */,
+			);
+			path = BXNetworking;
+			sourceTree = "<group>";
+		};
+		450F63E221538ED0001BD086 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				450F63EC21538ED0001BD086 /* BXNetworking.h */,
+				450F63E321538ED0001BD086 /* BXSecurityPolicy.h */,
+				450F63E421538ED0001BD086 /* BXNetworkReachabilityManager.h */,
+				450F63E521538ED0001BD086 /* BXURLSessionManager.h */,
+				450F63E621538ED0001BD086 /* BXURLRequestSerialization.h */,
+				450F63E721538ED0001BD086 /* BXURLResponseSerialization.m */,
+				450F63E821538ED0001BD086 /* BXHTTPSessionManager.m */,
+				450F63E921538ED0001BD086 /* BXURLResponseSerialization.h */,
+				450F63EA21538ED0001BD086 /* BXURLSessionManager.m */,
+				450F63EB21538ED0001BD086 /* BXURLRequestSerialization.m */,
+				450F63ED21538ED0001BD086 /* BXNetworkReachabilityManager.m */,
+				450F63EE21538ED0001BD086 /* BXSecurityPolicy.m */,
+				450F63EF21538ED0001BD086 /* BXCompatibilityMacros.h */,
+				450F63F021538ED0001BD086 /* BXHTTPSessionManager.h */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		450F638021536E83001BD086 /* BXNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450F638A21536E83001BD086 /* Build configuration list for PBXNativeTarget "BXNetworking" */;
+			buildPhases = (
+				450F637D21536E83001BD086 /* Sources */,
+				450F637E21536E83001BD086 /* Frameworks */,
+				450F637F21536E83001BD086 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BXNetworking;
+			productName = BXNetworking;
+			productReference = 450F638121536E83001BD086 /* libBXNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		450F637921536E83001BD086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Marco;
+				TargetAttributes = {
+					450F638021536E83001BD086 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					450F63A321537508001BD086 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 450F637C21536E83001BD086 /* Build configuration list for PBXProject "BXNetworking" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 450F637821536E83001BD086;
+			productRefGroup = 450F638221536E83001BD086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				450F638021536E83001BD086 /* BXNetworking */,
+				450F63A321537508001BD086 /* buildBXCNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		450F63A721537517001BD086 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./packageScript.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		450F637D21536E83001BD086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450F63F321538ED0001BD086 /* BXURLSessionManager.m in Sources */,
+				450F63DA21538C6F001BD086 /* BXCLog.m in Sources */,
+				450F63F121538ED0001BD086 /* BXURLResponseSerialization.m in Sources */,
+				450F63F521538ED0001BD086 /* BXNetworkReachabilityManager.m in Sources */,
+				450F63F621538ED0001BD086 /* BXSecurityPolicy.m in Sources */,
+				450F63F421538ED0001BD086 /* BXURLRequestSerialization.m in Sources */,
+				450F63BC2153797B001BD086 /* BXCNetWorkingManager.m in Sources */,
+				450F63F221538ED0001BD086 /* BXHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		450F638821536E83001BD086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		450F638921536E83001BD086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		450F638B21536E83001BD086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NNM9A57Q6;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		450F638C21536E83001BD086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NNM9A57Q6;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		450F63A521537508001BD086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NNM9A57Q6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		450F63A621537508001BD086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NNM9A57Q6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		450F637C21536E83001BD086 /* Build configuration list for PBXProject "BXNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450F638821536E83001BD086 /* Debug */,
+				450F638921536E83001BD086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		450F638A21536E83001BD086 /* Build configuration list for PBXNativeTarget "BXNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450F638B21536E83001BD086 /* Debug */,
+				450F638C21536E83001BD086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		450F63A421537508001BD086 /* Build configuration list for PBXAggregateTarget "buildBXCNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450F63A521537508001BD086 /* Debug */,
+				450F63A621537508001BD086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 450F637921536E83001BD086 /* Project object */;
+}
