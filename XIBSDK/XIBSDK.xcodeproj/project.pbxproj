@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		451D3DEB2154902E00064295 /* buildXIBSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 451D3DEC2154902E00064295 /* Build configuration list for PBXAggregateTarget "buildXIBSDK" */;
+			buildPhases = (
+				451D3DEF2154903400064295 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = buildXIBSDK;
+			productName = buildXIBSDK;
+		};
+		451D3E2D2154D2B300064295 /* buildXIBSDKBundle */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 451D3E2E2154D2B300064295 /* Build configuration list for PBXAggregateTarget "buildXIBSDKBundle" */;
+			buildPhases = (
+				451D3E312154D2B800064295 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = buildXIBSDKBundle;
+			productName = buildXIBSDKBundle;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		451D3DF22154912500064295 /* XIBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 451D3DF12154912500064295 /* XIBFirstViewController.m */; };
+		451D3E0521549E2600064295 /* XIBFirstViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 451D3DF02154912500064295 /* XIBFirstViewController.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		451D3DDC21548F3B00064295 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				451D3E0521549E2600064295 /* XIBFirstViewController.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		451D3DDE21548F3B00064295 /* libXIBSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libXIBSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		451D3DEA21548F4F00064295 /* packageScript.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = packageScript.sh; path = ../BXNetworking/packageScript.sh; sourceTree = "<group>"; };
+		451D3DF02154912500064295 /* XIBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XIBFirstViewController.h; sourceTree = "<group>"; };
+		451D3DF12154912500064295 /* XIBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XIBFirstViewController.m; sourceTree = "<group>"; };
+		451D3E0C2154A1E200064295 /* AutoGenStrings.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = AutoGenStrings.py; sourceTree = "<group>"; };
+		451D3E242154C4A900064295 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/XIBStoryboard.storyboard; sourceTree = "<group>"; };
+		451D3E262154C4B700064295 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/XIBStoryboard.storyboard"; sourceTree = "<group>"; };
+		451D3E282154C53900064295 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		451D3E2A2154C53B00064295 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		451D3E2C2154D13900064295 /* BundleScript.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = BundleScript.sh; sourceTree = "<group>"; };
+		451D3E452154DCC100064295 /* XIBSDKBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XIBSDKBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		451D3E472154DCC100064295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		451D3DDB21548F3B00064295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451D3E422154DCC100064295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		451D3DD521548F3B00064295 = {
+			isa = PBXGroup;
+			children = (
+				451D3E0C2154A1E200064295 /* AutoGenStrings.py */,
+				451D3DEA21548F4F00064295 /* packageScript.sh */,
+				451D3E2C2154D13900064295 /* BundleScript.sh */,
+				451D3DE021548F3B00064295 /* XIBSDK */,
+				451D3E462154DCC100064295 /* XIBSDKBundle */,
+				451D3DDF21548F3B00064295 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		451D3DDF21548F3B00064295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				451D3DDE21548F3B00064295 /* libXIBSDK.a */,
+				451D3E452154DCC100064295 /* XIBSDKBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		451D3DE021548F3B00064295 /* XIBSDK */ = {
+			isa = PBXGroup;
+			children = (
+				451D3DF02154912500064295 /* XIBFirstViewController.h */,
+				451D3DF12154912500064295 /* XIBFirstViewController.m */,
+				451D3E252154C4A900064295 /* XIBStoryboard.storyboard */,
+				451D3E292154C53900064295 /* Localizable.strings */,
+			);
+			path = XIBSDK;
+			sourceTree = "<group>";
+		};
+		451D3E462154DCC100064295 /* XIBSDKBundle */ = {
+			isa = PBXGroup;
+			children = (
+				451D3E472154DCC100064295 /* Info.plist */,
+			);
+			path = XIBSDKBundle;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		451D3DDD21548F3B00064295 /* XIBSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451D3DE721548F3B00064295 /* Build configuration list for PBXNativeTarget "XIBSDK" */;
+			buildPhases = (
+				451D3DDA21548F3B00064295 /* Sources */,
+				451D3DDB21548F3B00064295 /* Frameworks */,
+				451D3DDC21548F3B00064295 /* CopyFiles */,
+				451D3DF521549D0300064295 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XIBSDK;
+			productName = XIBSDK;
+			productReference = 451D3DDE21548F3B00064295 /* libXIBSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		451D3E442154DCC100064295 /* XIBSDKBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451D3E482154DCC100064295 /* Build configuration list for PBXNativeTarget "XIBSDKBundle" */;
+			buildPhases = (
+				451D3E412154DCC100064295 /* Sources */,
+				451D3E422154DCC100064295 /* Frameworks */,
+				451D3E432154DCC100064295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XIBSDKBundle;
+			productName = XIBSDKBundle;
+			productReference = 451D3E452154DCC100064295 /* XIBSDKBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		451D3DD621548F3B00064295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Marco;
+				TargetAttributes = {
+					451D3DDD21548F3B00064295 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					451D3DEB2154902E00064295 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					451D3E2D2154D2B300064295 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					451D3E442154DCC100064295 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 451D3DD921548F3B00064295 /* Build configuration list for PBXProject "XIBSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 451D3DD521548F3B00064295;
+			productRefGroup = 451D3DDF21548F3B00064295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				451D3DDD21548F3B00064295 /* XIBSDK */,
+				451D3DEB2154902E00064295 /* buildXIBSDK */,
+				451D3E2D2154D2B300064295 /* buildXIBSDKBundle */,
+				451D3E442154DCC100064295 /* XIBSDKBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		451D3E432154DCC100064295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		451D3DEF2154903400064295 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./packageScript.sh\n";
+		};
+		451D3DF521549D0300064295 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "python ${SRCROOT}/AutoGenStrings.py ${SRCROOT}/${TARGET_NAME}\n";
+		};
+		451D3E312154D2B800064295 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./BundleScript.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		451D3DDA21548F3B00064295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451D3DF22154912500064295 /* XIBFirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		451D3E412154DCC100064295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		451D3E252154C4A900064295 /* XIBStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				451D3E242154C4A900064295 /* en */,
+				451D3E262154C4B700064295 /* zh-Hans */,
+			);
+			name = XIBStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		451D3E292154C53900064295 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				451D3E282154C53900064295 /* en */,
+				451D3E2A2154C53B00064295 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		451D3DE521548F3B00064295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		451D3DE621548F3B00064295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		451D3DE821548F3B00064295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NNM9A57Q6;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		451D3DE921548F3B00064295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NNM9A57Q6;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		451D3DED2154902E00064295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NNM9A57Q6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		451D3DEE2154902E00064295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NNM9A57Q6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		451D3E2F2154D2B300064295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NNM9A57Q6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		451D3E302154D2B300064295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3NNM9A57Q6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		451D3E492154DCC100064295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3NNM9A57Q6;
+				INFOPLIST_FILE = XIBSDKBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marco.XIBSDKBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		451D3E4A2154DCC100064295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3NNM9A57Q6;
+				INFOPLIST_FILE = XIBSDKBundle/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Marco.XIBSDKBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		451D3DD921548F3B00064295 /* Build configuration list for PBXProject "XIBSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451D3DE521548F3B00064295 /* Debug */,
+				451D3DE621548F3B00064295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451D3DE721548F3B00064295 /* Build configuration list for PBXNativeTarget "XIBSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451D3DE821548F3B00064295 /* Debug */,
+				451D3DE921548F3B00064295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451D3DEC2154902E00064295 /* Build configuration list for PBXAggregateTarget "buildXIBSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451D3DED2154902E00064295 /* Debug */,
+				451D3DEE2154902E00064295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451D3E2E2154D2B300064295 /* Build configuration list for PBXAggregateTarget "buildXIBSDKBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451D3E2F2154D2B300064295 /* Debug */,
+				451D3E302154D2B300064295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451D3E482154DCC100064295 /* Build configuration list for PBXNativeTarget "XIBSDKBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451D3E492154DCC100064295 /* Debug */,
+				451D3E4A2154DCC100064295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 451D3DD621548F3B00064295 /* Project object */;
+}

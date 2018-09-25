@@ -14,6 +14,8 @@
 		450F636F2153501F001BD086 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450F636D2153501F001BD086 /* LaunchScreen.storyboard */; };
 		450F63722153501F001BD086 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 450F63712153501F001BD086 /* main.m */; };
 		450F63E121538E45001BD086 /* libBXNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 450F63E021538E45001BD086 /* libBXNetworking.a */; };
+		451D3E0921549ED700064295 /* libXIBSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 451D3E0621549ED700064295 /* libXIBSDK.a */; };
+		451D3E342154D96900064295 /* XIBSDKBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 451D3E332154D96900064295 /* XIBSDKBundle.bundle */; };
 		FA29CD2AE9EE157D0A250F9C /* libPods-BXCEvaluateDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE0AF5D42709E50EDE99DCDE /* libPods-BXCEvaluateDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +26,20 @@
 			proxyType = 2;
 			remoteGlobalIDString = 450F638121536E83001BD086;
 			remoteInfo = BXNetworking;
+		};
+		451D3DFE21549DC500064295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 451D3DF721549DC500064295 /* XIBSDK.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 451D3DDE21548F3B00064295;
+			remoteInfo = XIBSDK;
+		};
+		451D3E352154DAED00064295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 451D3DF721549DC500064295 /* XIBSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 451D3DDD21548F3B00064295;
+			remoteInfo = XIBSDK;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -42,6 +58,10 @@
 		450F63DF21538E45001BD086 /* BXCNetWorkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BXCNetWorkingManager.h; sourceTree = "<group>"; };
 		450F63E021538E45001BD086 /* libBXNetworking.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libBXNetworking.a; path = ../../../Products/BXNetworking/libBXNetworking.a; sourceTree = "<group>"; };
 		450F63F72153902F001BD086 /* BXNetworking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BXNetworking.xcodeproj; path = ../BXNetworking/BXNetworking.xcodeproj; sourceTree = "<group>"; };
+		451D3DF721549DC500064295 /* XIBSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = XIBSDK.xcodeproj; path = ../XIBSDK/XIBSDK.xcodeproj; sourceTree = "<group>"; };
+		451D3E0621549ED700064295 /* libXIBSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libXIBSDK.a; path = ../../../Products/XIBSDK/libXIBSDK.a; sourceTree = "<group>"; };
+		451D3E0821549ED700064295 /* XIBFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIBFirstViewController.h; sourceTree = "<group>"; };
+		451D3E332154D96900064295 /* XIBSDKBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = XIBSDKBundle.bundle; path = ../../../Bundle/XIBSDKBundle/XIBSDKBundle.bundle; sourceTree = "<group>"; };
 		9611BA48821E3432B586C4AA /* Pods-BXCEvaluateDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXCEvaluateDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BXCEvaluateDemo/Pods-BXCEvaluateDemo.release.xcconfig"; sourceTree = "<group>"; };
 		B3DADC57A392FA26FC4F1F50 /* Pods-BXCEvaluateDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BXCEvaluateDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BXCEvaluateDemo/Pods-BXCEvaluateDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DE0AF5D42709E50EDE99DCDE /* libPods-BXCEvaluateDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BXCEvaluateDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +74,7 @@
 			files = (
 				FA29CD2AE9EE157D0A250F9C /* libPods-BXCEvaluateDemo.a in Frameworks */,
 				450F63E121538E45001BD086 /* libBXNetworking.a in Frameworks */,
+				451D3E0921549ED700064295 /* libXIBSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +93,7 @@
 		450F63562153501F001BD086 = {
 			isa = PBXGroup;
 			children = (
+				451D3DF721549DC500064295 /* XIBSDK.xcodeproj */,
 				450F63F72153902F001BD086 /* BXNetworking.xcodeproj */,
 				450F63612153501F001BD086 /* BXCEvaluateDemo */,
 				450F63602153501F001BD086 /* Products */,
@@ -91,6 +113,7 @@
 		450F63612153501F001BD086 /* BXCEvaluateDemo */ = {
 			isa = PBXGroup;
 			children = (
+				451D3E0021549DE400064295 /* XIBSDK */,
 				450F63DC21538E33001BD086 /* SDK */,
 				450F63622153501F001BD086 /* AppDelegate.h */,
 				450F63632153501F001BD086 /* AppDelegate.m */,
@@ -132,6 +155,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		451D3DF821549DC500064295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				451D3DFF21549DC500064295 /* libXIBSDK.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		451D3E0021549DE400064295 /* XIBSDK */ = {
+			isa = PBXGroup;
+			children = (
+				451D3E332154D96900064295 /* XIBSDKBundle.bundle */,
+				451D3E0721549ED700064295 /* Headers */,
+				451D3E0621549ED700064295 /* libXIBSDK.a */,
+			);
+			path = XIBSDK;
+			sourceTree = "<group>";
+		};
+		451D3E0721549ED700064295 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				451D3E0821549ED700064295 /* XIBFirstViewController.h */,
+			);
+			name = Headers;
+			path = ../../../Products/XIBSDK/Headers;
+			sourceTree = "<group>";
+		};
 		C1D0520B93AA796C34A9F88B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +205,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				451D3E362154DAED00064295 /* PBXTargetDependency */,
 			);
 			name = BXCEvaluateDemo;
 			productName = BXCEvaluateDemo;
@@ -191,6 +242,10 @@
 					ProductGroup = 450F63F82153902F001BD086 /* Products */;
 					ProjectRef = 450F63F72153902F001BD086 /* BXNetworking.xcodeproj */;
 				},
+				{
+					ProductGroup = 451D3DF821549DC500064295 /* Products */;
+					ProjectRef = 451D3DF721549DC500064295 /* XIBSDK.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -207,6 +262,13 @@
 			remoteRef = 450F63FC2153902F001BD086 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		451D3DFF21549DC500064295 /* libXIBSDK.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libXIBSDK.a;
+			remoteRef = 451D3DFE21549DC500064295 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -216,6 +278,7 @@
 			files = (
 				450F636F2153501F001BD086 /* LaunchScreen.storyboard in Resources */,
 				450F636C2153501F001BD086 /* Assets.xcassets in Resources */,
+				451D3E342154D96900064295 /* XIBSDKBundle.bundle in Resources */,
 				450F636A2153501F001BD086 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +322,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		451D3E362154DAED00064295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XIBSDK;
+			targetProxy = 451D3E352154DAED00064295 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		450F63682153501F001BD086 /* Main.storyboard */ = {
@@ -404,6 +475,7 @@
 					"\"${PODS_ROOT}/Headers/Public\"",
 					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
 					"\"$(SRCROOT)/../Products/BXNetworking/Headers\"",
+					"\"$(SRCROOT)/../Products/XIBSDK/Headers\"",
 				);
 				INFOPLIST_FILE = BXCEvaluateDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -433,6 +505,7 @@
 					"\"${PODS_ROOT}/Headers/Public\"",
 					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
 					"\"$(SRCROOT)/../Products/BXNetworking/Headers\"",
+					"\"$(SRCROOT)/../Products/XIBSDK/Headers\"",
 				);
 				INFOPLIST_FILE = BXCEvaluateDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

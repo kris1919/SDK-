@@ -10,6 +10,7 @@
 #import <BXCNetWorkingManager.h>
 #import <BXCLog.h>
 #import <AFNetworking.h>
+#import <XIBFirstViewController.h>
 
 @interface ViewController ()
 
@@ -20,8 +21,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [self requestSDK];
-    [self requestAFNetworking];
+//    [self requestSDK];
+//    [self requestAFNetworking];
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2.f * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        XIBFirstViewController *xibVC = [[XIBFirstViewController alloc] xib_init];
+        [self.navigationController pushViewController:xibVC animated:YES];
+    });
+    
 }
 
 - (void)requestSDK{
